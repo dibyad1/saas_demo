@@ -14,7 +14,7 @@ include: "/jira_views/*.view.lkml"
 include: "/dashboards/*.lookml"
 
 datagroup: event_trigger {
-  sql_trigger: select max(date(timestamp)) from ${event_logs.SQL_TABLE_NAME};;
+  sql_trigger: select max(date(timestamp)) from `looker-private-demo.customer_usage.event_logs_event_sessions`;;
 }
 
 datagroup: sfdc_etl {
