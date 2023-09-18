@@ -93,7 +93,7 @@ view: daily_user_count {
     view_label: "Daily Account Health Scores"
     description: "Weighted average of Usage, User, Support and CSAT Scores, range from 1-5"
     type: number
-    sql: (${usage_score}*2+${user_score}*2+${support_score}+${csat_score})/6 ;;
+    sql: (${usage_score}*2)+(${user_score}*2)+${support_score}+${csat_score}/6 ;;
     value_format_name: decimal_1
   }
 
@@ -107,8 +107,9 @@ view: daily_user_count {
   measure: average_health_score {
     label: "Average Health Score"
     view_label: "Daily Account Health Scores"
-    type: average
-    sql: ${overall_health_score} ;;
+    # type: average
+    type: number
+    sql: AVG(${overall_health_score}) ;;
     value_format_name: decimal_1
   }
 
