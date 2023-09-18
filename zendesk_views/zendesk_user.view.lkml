@@ -56,7 +56,7 @@ view: zendesk_user {
     type: string
     link: {
       label: "Support Dashboard"
-      url: "/dashboards/119?Chatter+Name= {{ name._value }}"
+      url: "/dashboards/j1bAzAQWwRyGCZt1ZjojT5?Chatter+Name= {{ name._value }}"
     }
     sql: ${TABLE}.NAME;;
   }

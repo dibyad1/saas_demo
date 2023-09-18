@@ -133,10 +133,10 @@
     title_text: Quarter Progress
     subtitle_text: Progress Towards Quarter Team Goals
     body_text: "<hr/>\n<div class=\"btn-group btn-group-toggle\" data-toggle=\"buttons\"\
-      >\n  <a href=\"/dashboards/peP5KGenNMZEK2y7RbRw9B\" class=\"btn btn-secondary\"\
-      >\n          Sales Team Overview\n  </a>\n  <a href=\"/dashboards/cBvy297xUS6D4Qid7vqeS1\"\
+      >\n  <a href=\"/dashboards/6izj5f6nXuDRPAE2Ehorp8\" class=\"btn btn-secondary\"\
+      >\n          Sales Team Overview\n  </a>\n  <a href=\"/dashboards/8SMc0Aj4eQO5orarr0UFXe\"\
       \ class=\"btn btn-secondary\">\n  \t Customer Success Overview\n  </a>\n  <a\
-      \ href=\"/dashboards/6278\" class=\"btn btn-secondary\">\n  \tProduct Overview\n\
+      \ href=\"/dashboards/LPEri8ZUSzx84rTTIwgI0P\" class=\"btn btn-secondary\">\n  \tProduct Overview\n\
       \  </a>\n</div>"
     row: 10
     col: 0

@@ -140,8 +140,8 @@
     title_text: 四半期進捗
     subtitle_text: チーム目標に向けた四半期進捗
     body_text: "<hr/>\n<div class=\"btn-group btn-group-toggle\" data-toggle=\"buttons\"\
-      >\n  <a href=\"/dashboards-next/6879\" class=\"btn btn-secondary\">\n      \
-      \    営業チーム概要\n  </a>\n  <a href=\"/dashboards-next/6893\" class=\"btn btn-secondary\"\
+      >\n  <a href=\"/dashboards/6izj5f6nXuDRPAE2Ehorp8\" class=\"btn btn-secondary\">\n      \
+      \    営業チーム概要\n  </a>\n  <a href=\"/dashboards/8SMc0Aj4eQO5orarr0UFXe\" class=\"btn btn-secondary\"\
       >\n  \tカスタマーサクセス概要\n  </a>\n  <a href=\"\" class=\"btn btn-secondary\">\n  \t\
       製品概要\n  </a>\n</div>"
     row: 9

@@ -223,7 +223,7 @@ view: account {
     }
     link: {
       label: "Account Lookup Dashboard"
-      url: "/dashboards/XvgfHueXpfntyVOSsGnfvc?Account%20Name={{ value }}"
+      url: "/dashboards/Fkm98FkZqB6mmArf1ftEh1?Account%20Name={{ value }}"
       icon_url: "https://www.seekpng.com/png/full/138-1386046_google-analytics-integration-analytics-icon-blue-png.png"
     }
     action: {

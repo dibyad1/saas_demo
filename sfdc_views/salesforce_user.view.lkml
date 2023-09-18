@@ -86,13 +86,13 @@ view: salesforce_user {
     link: {
       label: "Sales Rep Deep Dive"
        url: "{% if role_name._value == 'Inside Account Executive' or role_name._value == 'Outside Account Executive' %}
-            /dashboards/zwaWaov6esPg8tNLVPtrkJ?Sales%20Rep%20Name={{ value }} {% endif %}"
+            /dashboards/QwOWzPHaceYpTiJrnb9PjO?Sales%20Rep%20Name={{ value }} {% endif %}"
       icon_url: "http://www.looker.com/favicon.ico"
     }
     link: {
       label: "Customer Success Overview"
       url: "{% if role_name._value == 'Customer Success Manager' %}
-      /dashboards/cBvy297xUS6D4Qid7vqeS1?Customer%20Success%20Manager={{ value }} {% endif %}"
+      /dashboards/8SMc0Aj4eQO5orarr0UFXe?Customer%20Success%20Manager={{ value }} {% endif %}"
       icon_url: "http://www.looker.com/favicon.ico"
     }
     action: {
@@ -188,7 +188,7 @@ view: salesforce_user {
     sql: concat(${sales_team},' ',${region}) ;;
     link: {
       label: "Team Performance Dashboard"
-      url: "https://googledemo.looker.com/dashboards/121?Sales%20Team%20Segment={{ sales_team._value }}&Sales%20Team%20Region={{ region._value }}"
+      url: "/dashboards/6izj5f6nXuDRPAE2Ehorp8?Sales%20Team%20Segment={{ sales_team._value }}&Sales%20Team%20Region={{ region._value }}"
       icon_url: "https://looker.com/assets/img/images/logos/looker_grey.svg"
     }
     action: {
